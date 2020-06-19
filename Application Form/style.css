@@ -1,0 +1,63 @@
+html {
+    background-color: #ebeced;
+    padding: 0 1em;
+}
+
+body {
+    color: #808080;
+    margin: 1em auto;
+    max-width: 50em;
+}
+
+p,
+ul {
+    font-family: 'Sanchez', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    background-color: tan;
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+#header {
+    color: #505050;
+    text-align: center;
+    font-size: 60px;
+}
+
+.main {
+    margin: 0;
+    width: 100%;
+}
+
+.left {
+    float: left;
+    width: 30%;
+}
+
+.right {
+    float: right;
+    width: 70%;
+}
+
+.submit {
+    text-align: center;
+    size: 30px;
+    padding: 25px 42px;
+    border: none;
+}
+
+td {
+    padding: 4mm;
+    padding-left: 1cm;
+    text-align: justify;
+}
